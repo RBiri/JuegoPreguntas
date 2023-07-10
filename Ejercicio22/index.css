@@ -1,0 +1,119 @@
+#inicio{
+    background-image: url("img/inicio/reaper.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.fallaste{
+    background-image: url("img/inicio/death.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.caja{
+    position: fixed;
+    bottom: 0%;
+    height: 20%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: xx-large;
+}
+.texto{
+    display: block;
+    white-space: nowrap;
+    width: 200ch;
+    animation: typing 8s steps(200),blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.modalRespuesta{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 60%;
+    height: 40vh;
+    margin-top: -40%;
+    margin-left: 20%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+img{
+    width: 250px;
+    height: 350px;
+}
+
+#futbol{
+    background-image: url("img/inicio/campoFutbol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#musica{
+    background-image: url("img/inicio/concierto.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#ciencia{
+    background-image: url("img/inicio/laboratorio.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#actores{
+    background-image: url("img/inicio/alfombraRoja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#mates{
+    background-image: url("img/inicio/pizarra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: x-large;
+}
+#ganaste{
+    background-image: url("img/inicio/ganaste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mates{
+    font-size: xx-large;
+    font-style:bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.volverAEmpezar{
+    position: absolute;
+    top:45%;
+    left: 40%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: xx-large;
+    background-color: rgb(0,0,0,1);
+    color: white;
+    border-radius: 20%;
+    height: 5%;
+    padding-top: 0,5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
